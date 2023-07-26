@@ -1,0 +1,1587 @@
+<!doctype html>
+<!--[if IE 6 ]>
+<html lang="en-us" class="ie6">
+<![endif]-->
+<!--[if IE 7 ]>
+  <html lang="en-us" class="ie7">
+  <![endif]-->
+<!--[if IE 8 ]>
+    <html lang="en-us" class="ie8">
+    <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <title>Happychild - Multi Store Responsive Shopify Theme</title>
+    <meta name="description" content="Happychild is a highly flexible, Multi Store Responsive Shopify Theme. It's built on Bootstrap 3 and looks great on Desktops, Laptops and Mobile devices. With unique cool designs, modern, stylish, intuitive assistant and 3 Unique Home layouts, Happychild is a good choice to build your online store. The Happychild shopify theme supports 3 view modes for product listing page: Grid view, List view and FullWidth view, all the views are lean, show info that user wants.">
+    <meta name="author" content="EngoTheme">
+    <meta name="copyright" content="EngoTheme">
+    <meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+    <meta name="date" content="2016-05-24T00:00:00+02:00">
+    <link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/jquery.scrollTo.js"></script>
+    <script src="assets/js/jquery.easing.js"></script>
+    <script>
+        document.createElement('section');
+        var duration = '274',
+            easing = 'swing';
+    </script>
+    <script src="assets/js/script.js"></script>
+    <style>
+        html {
+            background-color: #EEEEEE;
+            color: #383838;
+        }
+        ::-moz-selection {
+            background: #333636;
+            color: #00DFFC;
+        }
+        ::selection {
+            background: #333636;
+            color: #00DFFC;
+        }
+        #documenter_sidebar #documenter_logo {
+            background-image: url(assets/images/engotheme.png);
+            background-size: 180px;
+        }
+        a {
+            color: #008C9E;
+        }
+        .btn {
+            border-radius: 3px;
+        }
+        .btn-primary {
+            background-image: -moz-linear-gradient(top, #008C9E, #006673);
+            background-image: -ms-linear-gradient(top, #008C9E, #006673);
+            background-image: -webkit-gradient(linear, 0 0, 0 008C9E%, from(#343838), to(#006673));
+            background-image: -webkit-linear-gradient(top, #008C9E, #006673);
+            background-image: -o-linear-gradient(top, #008C9E, #006673);
+            background-image: linear-gradient(top, #008C9E, #006673);
+            filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#008C9E', endColorstr='#006673', GradientType=0);
+            border-color: #006673 #006673 #bfbfbf;
+            color: #FFFFFF;
+        }
+        .btn-primary:hover,
+        .btn-primary:active,
+        .btn-primary.active,
+        .btn-primary.disabled,
+        .btn-primary[disabled] {
+            border-color: #008C9E #008C9E #bfbfbf;
+            background-color: #006673;
+        }
+        hr {
+            border-top: 1px solid #D4D4D4;
+            border-bottom: 1px solid #FFFFFF;
+        }
+        #documenter_sidebar,
+        #documenter_sidebar ul a {
+            background-color: #343838;
+            color: #FFFFFF;
+        }
+        #documenter_sidebar ul a {
+            -webkit-text-shadow: 1px 1px 0px #494F4F;
+            -moz-text-shadow: 1px 1px 0px #494F4F;
+            text-shadow: 1px 1px 0px #494F4F;
+        }
+        #documenter_sidebar ul {
+            border-top: 1px solid #212424;
+        }
+        #documenter_sidebar ul a {
+            border-top: 1px solid #494F4F;
+            border-bottom: 1px solid #212424;
+            color: #FFFFFF;
+        }
+        #documenter_sidebar ul a:hover {
+            background: #333636;
+            color: #00DFFC;
+            border-top: 1px solid #333636;
+        }
+        #documenter_sidebar ul a.current {
+            background: #333636;
+            color: #00DFFC;
+            border-top: 1px solid #333636;
+        }
+        #documenter_copyright {
+            display: block !important;
+            visibility: visible !important;
+        }
+    </style>
+</head>
+
+<body class="documenter-project-Boutique">
+    <div id="documenter_sidebar">
+        <a href="#documenter_cover" id="documenter_logo"></a>
+        <ul id="documenter_nav">
+            <li><a class="current" href="#documenter_cover">Hello</a>
+            </li>
+            <li><a href="#getting_started" title="Getting Started">Getting Started</a>
+            </li>
+            <li><a href="#download_and_installation" title="Download and Installation">Download and Installation</a>
+            </li>
+            <li><a href="#theme_configuration" title="Theme Configuration">Theme Configuration</a>
+            </li>
+            <li><a href="#popup_newletter" title="Popup Newletter">Popup Newletter</a>
+            </li>
+            <li><a href="#navigation_and_menu" title="Navigation and Menu">Navigation and Megamenu</a>
+            </li>
+            <li><a href="#multi_language" title="Multi Language">Multi Language</a>
+            </li>
+            <li><a href="#color_font" title="Colors & Google Fonts">Colors & Google Fonts</a>
+            </li>
+            <li><a href="#color_variant_product" title="Using of Color Variant Product">Using of Color Variant Product</a>
+            </li>
+            <li><a href="#create_content" title="Create Content">Create Content</a>
+            </li>
+            <li><a href="#header_footer" title="Sections in home page">Header & Footer</a>
+            </li>
+            <li><a href="#sections_in_home_page" title="Sections in home page">Sections in Home page</a>
+            </li>
+            <li><a href="#home_page_1" title="Home page 1">Home page 1</a>
+            </li>
+            <li><a href="#home_page_2" title="Home page 2">Home page 2</a>
+            </li>
+            <li><a href="#home_page_3" title="Home page 3">Home page 3</a>
+            </li>
+            </li>
+            <li><a href="#shop_page" title="Shop page">Shop page</a>
+            </li>
+            <li><a href="#get_support" title="Get support">Get support</a>
+            </li>
+        </ul>
+        <div id="documenter_copyright">Copyright EngoTheme 2016
+            <br> made with the <a href="http://rxa.li/documenter">Documenter v2.0</a>
+        </div>
+    </div>
+    <div id="documenter_content">
+        <section id="documenter_cover">
+            <div>
+                <div style="float: left; margin-right: 10px;">
+                </div>
+                <h1>Happychild</h1>
+                <h2>Multi Store Responsive Shopify Theme</h2>
+            </div>
+            <div id="documenter_buttons">
+                <a href="http://landing.engotheme.com/shopify/happychild/" class="btn btn-primary btn-large">View demo</a>
+            </div>
+            <hr>
+            <ul>
+                <li>created: 10/18/2016</li>
+                <li>latest update: 10/20/2016</li>
+                <li>by: EngoTheme</li>
+                <li>
+                    <a href=""></a>
+                </li>
+                <li>email: <a href="mailto:&#101;&#110;&#103;&#111;&#116;&#104;&#101;&#109;&#101;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#101;&#110;&#103;&#111;&#116;&#104;&#101;&#109;&#101;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a>
+                </li>
+            </ul>
+            <div>
+                <strong>HELLO ! FIRST OF ALL WE WOULD LIKE TO THANK YOU SO MUCH FOR CHOOSING OUR THEME!</strong>
+            </div>
+            <div>
+                &nbsp;
+            </div>
+            <div>
+                Here are some basics on installing, configuring and customizing the Engo Theme.
+                <br/>If you have any questions that are beyond the scope of this help file, please feel free to contact us via email : <strong>&#101;&#110;&#103;&#111;&#116;&#104;&#101;&#109;&#101;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</strong>
+            </div>
+            <div>
+                &nbsp;
+            </div>
+            <div>
+                We truly appreciate and really hope that you&#39;ll enjoy our theme!
+            </div>
+            <div>
+                &nbsp;
+            </div>
+            <div>
+                &nbsp;
+            </div>
+            <div>
+                <a href="https://themeforest.net/user/engotheme/portfolio?ref=EngoTheme">Purchase another our best themes</a>
+            </div>
+            <div>
+                &nbsp;
+            </div>
+            <div>
+                Best Regards,
+            </div>
+            <div>
+                <strong>EngoTheme</strong>
+            </div>
+            <p></p>
+        </section>
+        <section id="getting_started">
+            <div class="page-header">
+                <h3>Getting Started</h3>
+                <hr class="notop">
+            </div>
+            <h4 id="getting_started_introducing_Boutique_creative_multi_purpose_shopify_theme">Introducing Happychild - Multi Store Responsive Shopify Theme</h4>
+            <div class="logo">
+                <img src="assets/images/logo.png" />
+            </div>
+            <p>
+                Happychild is a highly flexible, Multi Store Responsive Shopify Theme. It&#39;s built on Bootstrap 3 and looks great on Desktops, Laptops and Mobile devices. With unique cool designs, modern, stylish, intuitive assistant and 9 Unique Home layouts, Happychild is a good choice to build your online store. The Happychild shopify theme supports 3 view modes for product listing page: Grid view, List view and FullWidth view, all the views are lean, show info that user wants.
+            </p>
+            <div>
+                The theme includes all shop pages: Product listing, product detail, add to cart, checkout, quick view ... with customized layout and style to make it look incredible. The product filtering system is powered with the integration of modules: Categories list, Filter based on product attribute, New products, Related products... to help user find out their best fit items at a glance. The Shopify theme is easy to customize with the Theme Customizer tool that let you change settings for most of the pages, sections in the site based on predefined parameters.
+            </div>
+            <div>
+                &nbsp;
+            </div>
+            <div>
+                The multi-purpose Multi Store Responsive Shopify Theme is SEO optimized that makes your site friendly with Search Engines, CSS and JS compression helps to improve your site performance a lot.
+            </div>
+            <div>
+                &nbsp;
+            </div>
+            <p>
+                &nbsp;
+            </p>
+        </section>
+        <section id="download_and_installation">
+            <div class="page-header">
+                <h3>Download and Installation</h3>
+                <hr class="notop">
+            </div>
+            <p> After purchased our theme, you need to go your download area, click on button Download and select download All files &amp; documentation.</p>
+            <p> Once the download is complete, unzip the file and you would see the following packages:</p>
+            <ul>
+                <li> <strong>Guides&nbsp;</strong>- our detail documentation for the theme</li>
+                <li> <strong>Licensing&nbsp;</strong>- the theme license</li>
+                <li> <strong>Samples</strong>&nbsp;- Sample data for manual installation</li>
+                <li> <strong>PSD&nbsp;</strong>- the PSD files of the theme</li>
+                <li> <strong>Source&nbsp;</strong>- All Themes include</li>
+            </ul>
+            <h4 id="download_and_installation_theme_installation">Theme Installation</h4>
+            <p> To install the theme, please log in to your Shopify store and go to the Online Store/Themes. From there, click on Upload a Theme and upload the .zip file from the &lsquo;upload&rsquo; folder included with this package.</p>
+            <ul>
+                <li> Step 1&nbsp;&ndash; From your Shopify admin, click&nbsp;<strong>Online Store</strong> &gt; <strong>Themes<br>
+                      <img alt="" src="assets/images/image_53.gif" style="width: 228px; height: 300px;"></strong>
+                    <br>
+                    <br> &nbsp;
+                </li>
+                <li> <strong>Step 2&nbsp;&ndash; </strong>Click&nbsp;Upload a theme&nbsp;in the top righthand corner
+                    <br>
+                    <br>
+                    <strong><img alt="" src="assets/images/image_1.jpg"></strong>
+                    <br>
+                    <br> &nbsp;
+                </li>
+                <li> <strong>Step 3</strong>&nbsp;&ndash; The&nbsp;Upload A Theme&nbsp;dialog displays. Click&nbsp;Choose File&nbsp;to select the&nbsp;<strong>Happychild.zip</strong>&nbsp;file you want to upload, then click&nbsp;Upload.
+                    <br>
+                    <br>
+                    <strong><img alt="" src="assets/images/image_12.jpg"></strong>
+                    <br>
+                    <p>You need choose <strong>"Happychild.zip"</strong> file in <strong>SOURCE folder</strong> and set up for your website</p>
+                    <strong><img alt="" src="assets/images/source_folder.png"></strong>
+                    <br>
+                </li>
+                <br>
+                <li style="box-sizing: border-box;">
+                    <span style="box-sizing: border-box; font-weight: 700; color: rgb(0, 0, 0);">Step 4</span>&nbsp;&ndash; The uploaded theme appears in the&nbsp;<span style="box-sizing: border-box; font-weight: 700; color: rgb(0, 0, 0);">Unpublished themes</span>&nbsp;section of your Themes page. Now that you&#39;ve installed the theme, you can&nbsp;<span style="box-sizing: border-box; font-weight: 700; color: rgb(0, 0, 0);">publish</span>&nbsp;it or <span style="box-sizing: border-box; font-weight: 700; color: rgb(0, 0, 0);">customize</span>&nbsp;it as you choose.<strong><strong><img alt="" src="assets/images/image_23.jpg"><br>
+                    <strong><strong><img alt="" src="assets/images/image_34.jpg"></strong></strong>
+                    </strong>
+                    </strong>
+                </li>
+            </ul>
+            <p> &nbsp;</p>
+            <h4 id="download_and_installation_app_install">App install</h4>
+            <ol style="box-sizing: border-box; margin: 0px 0px 10px; padding-right: 0px; padding-left: 0px; border: 0px; outline: 0px; font-size: 14px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; line-height: 1.5em; max-width: 800px; color: rgb(51, 51, 51);">
+                <li style="box-sizing: border-box; margin: 0px 0px 0px 15px; padding: 5px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal;">
+                    https://apps.shopify.com/product-reviews
+                </li>
+                <li style="box-sizing: border-box; margin: 0px 0px 0px 15px; padding: 5px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal;">
+                    https://apps.shopify.com/metafields-editor
+                </li>
+            </ol>
+            <p style="box-sizing: border-box; margin: 0px 0px 0px 15px; padding: 5px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal;">
+                <img alt="" src="assets/images/image_44.jpg">
+            </p>
+            <p> &nbsp;</p>
+            <p> &nbsp;</p>
+        </section>
+        <section id="theme_configuration">
+            <div class="page-header">
+                <h3>Theme Configuration</h3>
+                <hr class="notop">
+            </div>
+            <h4 id="theme_configuration_enable_customer_registration_form">Enable Customer Registration Form</h4>
+            <p> <img alt="" src="assets/images/image_45.jpg">
+            </p>
+            <h4 id="theme_configuration_setting_currency">Setting Currency</h4>
+            <p> <img alt="" src="assets/images/image_46.jpg">
+            </p>
+            <h4 id="theme_configuration_enable_store">Enable Store</h4>
+            <p> <img alt="" src="assets/images/image_47.jpg">
+            </p>
+            <p><strong>Enable/Disable</strong> in Admin Login > Online Store > Preferences > Storefront password.</p>
+            <p>If enable <strong>Password protect your storefront</strong> > setting in <strong>Comming Soon page.</strong>
+            </p>
+        </section>
+        <section id="popup_newletter">
+            <div class="page-header">
+                <h3>Popup Newletter</h3>
+                <hr class="notop">
+            </div>
+            <p><strong>Login Store > Customize theme > Settings tab > Popup Newletter</strong>
+            </p>
+            <p>
+                <img alt="" src="assets/images/popup_newletter_setting.jpg">
+            </p>
+            <p>
+                <img alt="" src="assets/images/pp_newletter.jpg">
+            </p>
+
+            </p>
+        </section>
+        <section id="navigation_and_menu">
+            <div class="page-header">
+                <h3>Navigation and Megamenu</h3>
+                <hr class="notop">
+            </div>
+            <h4 id="navigation_and_menu_creat_menu_navigation">Creat menu navigation</h4>
+            <p>
+                <img alt="" src="assets/images/image_48.jpg">
+            </p>
+            <h4 id="navigation_and_menu_add_new_menu">Add new menu</h4>
+            <p>
+                <img alt="" src="assets/images/image_42.jpg">
+            </p>
+            <h4 id="navigation_and_menu_create_dropdown_menu">Create Dropdown Menu</h4>
+            <p>
+                Go to this page <a href="https://help.shopify.com/manual/sell-online/online-store/menus-and-links#create-a-drop-down-menu">https://help.shopify.com/manual/sell-online/online-store/menus-and-links#create-a-drop-down-menu</a> to know how to create dropdown menu in Shopify.
+            </p>
+            <h4 id="navigation_and_menu_add_new_menu"><strong><span style="color: #00dffc !important;background-color: #000;padding: 10px;">How to show Mega Menu</span></strong></h4>
+            <hr>
+            <p>
+                <strong>Step 1:</strong> You need to create multi-level drop-down menus.
+                <br>
+                <strong>Step 2:</strong> Put the items you'd like to show as Mega Menu at <strong>Mega Menu Items</strong> in Settings.
+                <br>
+                <strong>Step 3:</strong> Locate the menu item.
+                <br>
+                <strong>Step 4:</strong> At <strong>Megamenu</strong>, you need to choose the Style suitable for your option.
+            </p>
+            <hr>
+            <h4>Mega Menu 1</h4>
+            <p>
+                <img alt="" src="assets/images/megamenu1.jpg">
+            </p>
+            <h4>Mega Menu 2</h4>
+            <p>
+                <img alt="" src="assets/images/megamenu2.jpg">
+            </p>
+            <h4>Mega Menu 3</h4>
+            <p>
+                <img alt="" src="assets/images/megamenu3.jpg">
+            </p>
+            <h4>Mega Menu 4</h4>
+            <p>
+                <img alt="" src="assets/images/megamenu4.jpg">
+            </p>
+            <p>You'd like to display <strong>Products</strong> as Mega Menu, you need to:
+                <br> 1. Create the <strong>Products</strong> collection link list in Navigation and the multi-level drop-down menu belongs to <strong>Products</strong> (<a href="#navigation_and_menu_create_dropdown_menu">How can I do that?</a>).
+                <br> 2. In settings, please put <strong>kid</strong>(lowercase) text into <strong>Parent name of dropdow menu</strong>.
+                <br> 3. Locate the <strong>Products</strong> item in Menu is 3.
+                <br>
+                <img src="assets/images/megamenu_style_1.jpg" alt="Install" style="margin-bottom: 5px;margin-top: 10px;padding: 10px 0 10px 0;">
+                <br> 4. In settings, at <strong>MEGAMENU 1</strong>, please do follow the below image.
+                <br>
+                <img src="assets/images/img_style_1.jpg" alt="Mega Menu" style="border: 1px solid #e3e3e3; padding:0;">
+                <br>
+                <br> 5. In settings, at <strong>MEGAMENU 2</strong>, please do follow the below image.
+                <br>
+                <br>
+                <img src="assets/images/img_style_2.jpg" alt="Mega Menu" style="border: 1px solid #e3e3e3; padding:0;">
+                <br>
+                <br> 6. In settings, at <strong>MEGAMENU 3</strong>, please do follow the below image.
+                <br>
+                <br>
+                <img src="assets/images/img_style_3.jpg" alt="Mega Menu" style="border: 1px solid #e3e3e3; padding:0;">
+                <br>
+                <br> 7. In settings, at <strong>MEGAMENU 4</strong>, please do follow the below image.
+                <br>
+                <br>
+                <img src="assets/images/img_style_4.jpg" alt="Mega Menu" style="border: 1px solid #e3e3e3; padding:0;">
+            </p>
+            <p>
+                <strong><span style="color: #00dffc !important;background-color: #000;padding: 5px;">HTML Code in First Column</span></strong>
+            </p>
+        </section>
+        <section id="multi_language">
+            <div class="page-header">
+                <h3>Create Multi Language</h3>
+                <hr class="notop">
+            </div>
+            <p>Many headers, messages and content edit in <a href="https://docs.shopify.com/manual/your-website/themes/translate-theme">Language editor</a>
+            </p>
+            <p><a href="http://shopify.com/admin/themes">Online Store / Themes</a>. Than you select "Edit language"</p>
+            <img src="assets/images/create_ml.png" alt="" class="img-responsive">
+            <h4 style=""><strong>Create language switcher in shop</strong></h4>
+            <h4 style="color: red;"><strong>Warning: one language = one store. Shopify does not support multilangular online!!!</strong></h4>
+            <img src="assets/images/config_multilanguage.jpg" alt="" class="img-responsive">
+            <p>Create linklist in Navigation and select it in field "Multi Language":</p>
+            <img src="assets/images/config_link_ml.jpg" alt="" class="img-responsive">
+        </section>
+        <section id="color_font">
+            <div class="page-header">
+                <h3>Setting Colors & Google Fonts</h3>
+                <hr class="notop">
+            </div>
+            <h4 class="section-heading">Colors</h4>
+            <p><strong>Setting colors in Colors (Login Store > Customize theme > Settings tab > Colors)</strong>
+            </p>
+            <img src="assets/images/setting_colors.jpg" alt="">
+            <h4 class="section-heading">Google Fonts</h4>
+            <p><strong>Setting google fonts in Fonts (Login Store > Customize theme > Settings tab > Fonts)</strong>
+            </p>
+            <img src="assets/images/google_font.jpg" alt="">
+        </section>
+        <section id="color_variant_product">
+            <div class="page-header">
+                <h3>Using of Color Variant Product</h3>
+                <hr class="notop">
+            </div>
+            <p>To create product with color variant as in our store, you need to do following steps:</p>
+            <p>Login to your Shopify admin panel and go to <strong>Products</strong>, then click on the product you would like to add color variants.</p>
+            <p><img src="assets/images/p_color_1.jpg" alt="">
+            </p>
+            <p>In <strong>Variants</strong> section, you need to add variations to the product.</p>
+            <p><img src="assets/images/p_color_2.jpg" alt="">
+            </p>
+            <p>After that, your product page to see variants show:</p>
+            <p><img src="assets/images/p_color_3.jpg" alt="">
+            </p>
+        </section>
+        <section id="create_content">
+            <div class="page-header">
+                <h3>Create Content</h3>
+                <hr class="notop">
+            </div>
+            <h4 id="create_content_create_collections">Create Collections</h4>
+            <div>
+                You may know how to creat collections in Shopify, we have only some small notes.
+            </div>
+            <div>
+                &nbsp;
+            </div>
+            <div>
+                Go to this link <a href="http://docs.shopify.com/manual/your-store/collections">http://docs.shopify.com/manual/your-store/collections</a> to know how to work with Shopify collection.
+            </div>
+            <div>
+                &nbsp;
+            </div>
+            <div>
+                There are some notes:
+            </div>
+            <div>
+                &nbsp;
+            </div>
+            <div>
+                We should use same image size for all collections image
+            </div>
+            <div>
+                &nbsp;
+            </div>
+            <div>
+                We should enter the collection description.
+            </div>
+            <div>
+                &nbsp;
+            </div>
+            <div>
+                <h4 id="create_content_create_products">Create Products</h4>
+                <div class="alert alert-info">
+                    You can import sample products ( as our demo ) or create new products.
+                </div>
+                <h5>
+                              1. Import Sample Products
+                          </h5>
+                <div>
+                    &nbsp;
+                </div>
+                <div>
+                    <strong>Step 1</strong> &ndash; From your Shopify admin, click <strong>Products</strong>
+                </div>
+                <div>
+                    <strong>Step 2 </strong>&ndash; Click <strong>Import </strong>in the top righthand corner..
+                    <br>
+                    <br>
+                    <img alt="" src="assets/images/image_2.jpg">
+                </div>
+                <div>
+                    &nbsp;
+                </div>
+                <div>
+                    &nbsp;
+                </div>
+                <div>
+                    <strong>Step 3</strong> &ndash; The Import products by CSV file dialog displays. Click Choose File to select the <strong>products_export.csv</strong> ( in folder Sample Data) file you want to upload, then click <strong>Upload</strong>.
+                </div>
+                <div>
+                    &nbsp;
+                </div>
+                <div>
+                    <img alt="" src="assets/images/image_3.jpg">
+                </div>
+                <div>
+                    &nbsp;
+                </div>
+                <div>
+                    &nbsp;
+                </div>
+                <div>
+                    <strong>Step 4</strong> &ndash; Click to <strong>Upload file</strong>
+                </div>
+                <div>
+                    &nbsp;
+                </div>
+                <div>
+                    <h5>
+                                2. Create New Products
+                            </h5>
+                    <div>
+                        &nbsp;
+                    </div>
+                    <div>
+                        Go to this link <a href="http://docs.shopify.com/manual/your-store/products/create-product">http://docs.shopify.com/manual/your-store/products/create-product</a> to know how to add a new product.
+                    </div>
+                    <div>
+                        &nbsp;
+                    </div>
+                    <div>
+                        <h4 id="create_content_create_posts">Create Posts</h4>
+                        <div>
+                            Go to this link <a href="http://docs.shopify.com/manual/your-website/blog-posts/add-post-to-blog">http://docs.shopify.com/manual/your-website/blog-posts/add-post-to-blog</a> to know how to add a post to your blog.
+                        </div>
+                        <div>
+                            &nbsp;
+                        </div>
+                        <div>
+                            We have to add an image to post to display on &quot;From our blog&quot; section on home page and &quot;Blog&quot; page. Go to this link <a href="http://docs.shopify.com/manual/your-website/blog-posts/add-image-to-blog">http://docs.shopify.com/manual/your-website/blog-posts/add-image-to-blog</a> to know how to add image to post.
+                        </div>
+                        <h4 id="create_content_img_alt" "_src"http_landingengothemecom_shopify_Boutique_guides_img_12jpg "_style"width_637px_height_324px ""><img alt="" src="assets/images/image_4.jpg"></h4>
+                        <h4 id="create_content__nbspturn_on_comment">Turn on comment</h4>
+                        <div>
+                            Go to this link <a href="http://docs.shopify.com/manual/your-website/blog-posts/enable-disable-moderate-comments">http://docs.shopify.com/manual/your-website/blog-posts/enable-disable-moderate-comments</a> to know how to turn on blog comment.
+                        </div>
+                        <div>
+                            &nbsp;
+                        </div>
+                        <h4 id="create_content__nbspcreate_contact_page">Create Contact Page</h4>
+                        <div>
+                            Go to this link <a href="http://docs.shopify.com/manual/your-website/pages/create-page">http://docs.shopify.com/manual/your-website/pages/create-page</a> to know how to create a page in Shopify.
+                        </div>
+                        <div>
+                            &nbsp;
+                        </div>
+                        <div>
+                            To create contact page, create a page with title is &quot;Contact us&quot;. In &quot;Template&quot; box, select template is &quot;page.contact&quot;.
+                        </div>
+                        <div>
+                            &nbsp;
+                        </div>
+                        <div>
+                            <img alt="" src="assets/images/image_5.jpg">
+                        </div>
+                        <div>
+                            &nbsp;
+                        </div>
+                        <div>
+                            and then setting Contact us page in customizer (Login Store > Customize theme > Settings tab > Contact Us):
+                        </div>
+                        <div>
+                            &nbsp;
+                        </div>
+                        <div>
+                            <img alt="" src="assets/images/image_29.jpg">
+                        </div>
+                        <div>
+                            &nbsp;
+                        </div>
+                        <div>
+                            <strong>HTML Code service Connect (Service Content):</strong>
+                        </div>
+                        <div>
+                            &nbsp;
+                        </div>
+                        <textarea style="width:100%; height:500px; text-align: left;">
+                           <div class="content-contact clearfix">
+                              <div class="col-md-4 col-sm-4 col-xs-4 col-hm-4 col-mb-12">
+                                <div class="item-contact drop-line">
+                                  <img src="//cdn.shopify.com/s/files/1/1564/5749/t/2/assets/contact_box_icon_1.jpg?13316159165993580034" alt="" class="icon">
+                                  <h2 class="title">Drop Us A Line</h2>
+                                  <h4 class="des">Business standards services compliant. Users without extensible costs.</h4>
+                                  <span>hello@quato-shop.com</span>
+                                </div>
+                              </div>
+                     
+                              <div class="col-md-4 col-sm-4 col-xs-4 col-hm-4 col-mb-12">
+                                <div class="item-contact drop-line">
+                                  <img src="//cdn.shopify.com/s/files/1/1564/5749/t/2/assets/contact_box_icon_2.jpg?13316159165993580034" alt="" class="icon">
+                                  <h2 class="title">Commercial</h2>
+                                  <h4 class="des">Business standards services compliant. Users without extensible costs.</h4>
+                                  <span>commercial@quato-shop.com</span>
+                                </div>
+                              </div>
+
+                              <div class="col-md-4 col-sm-4 col-xs-4 col-hm-4 col-mb-12">
+                                <div class="item-contact drop-line">
+                                  <img src="//cdn.shopify.com/s/files/1/1564/5749/t/2/assets/contact_box_icon_3.jpg?13316159165993580034" alt="" class="icon">
+                                  <h2 class="title">Visit Our Office</h2>
+                                  <h4 class="des">262 Milacina Mrest Street, Behansed, Paris, France</h4>
+                                  <span>(+86) 6 888 888</span>
+                                </div>
+                              </div>
+                              
+                            </div>
+                        </textarea>
+                        <h4 id="create_content__nbsp">&nbsp;</h4>
+                        <h4 id="create_content_ablut_us_page">About us page</h4>
+                        <p>
+                            &nbsp;To create <strong>About us</strong> page, create a page with title is &quot;About us&quot;. In &quot;Template&quot; box, select template is &quot;page.aboutus&quot;.
+                        </p>
+                        <p>
+                            <img alt="" src="assets/images/image_31.jpg">
+                        </p>
+                        <p>
+                            and then setting About us page in customizer(Login Store > Customize theme > Settings tab > About Us):
+                        </p>
+                        <p>
+                            <img alt="" src="assets/images/image_30.jpg">
+                        </p>
+                        <div>
+                            &nbsp;
+                        </div>
+                        <div>
+                            <strong>HTML Code Social Connect (Social Content):</strong>
+                        </div>
+                        <div>
+                            &nbsp;
+                        </div>
+                        <textarea style="width:100%; height:100px; text-align: left;">
+                            <ul>
+                                <li><a href="#" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#" target="_blank" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a href="#" target="_blank" class="pinterest"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                                <li><a href="#" target="_blank" class="behance"><i class="fa fa-behance"></i></a></li>
+                                <li><a href="#" target="_blank" class="dribbble"><i class="fa fa-dribbble"></i></a></li>
+                            </ul>
+                        </textarea>
+                        <h4 id="create_content_create_wishlist_page">Create Wishlist Page</h4>
+                        <div>
+                            Go to this link <a href="http://docs.shopify.com/manual/your-website/pages/create-page">http://docs.shopify.com/manual/your-website/pages/create-page</a> to know how to create a page in Shopify.
+                        </div>
+                        <div>
+                            &nbsp;
+                        </div>
+                        <div>
+                            To create contact page, create a page with title is &quot;<strong>Wish list</strong>&quot;. In &quot;Template&quot; box, select template is &quot;page.wishlist&quot;.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p>
+                <img alt="" src="assets/images/image_6.jpg">
+            </p>
+        </section>
+        <section id="header_footer">
+            <div class="page-header">
+                <h3>Header & Footer</h3>
+                <hr class="notop">
+                <h4 id="header_footer" class="section-heading">Header</h4>
+                <p style="text-transform: uppercase; font-weight: bold;">
+                    In Happychild theme, we support <strong style="background: #ff6600; color: #fff; padding: 2px 5px;">3 designs Header</strong>
+                    <br/>
+                    <p>
+                        <img src="assets/images/demo_header.png" />
+                    </p>
+                    <br/> You can see choose Header style in <strong>Customize theme</strong> control panel.
+                    <br/>
+                    <p>
+                        <img src="assets/images/choose_hf.jpg" />
+                    </p>
+                   
+                </p>
+                <h4 class="section-heading">Footer</h4>
+                <p style="text-transform: uppercase; font-weight: bold;">
+                    In Happychild theme, we support <strong style="background: #ff6600; color: #fff; padding: 2px 5px;">3 designs Footer</strong>
+                    <br/>
+                    <p>
+                        <img src="assets/images/demo_footer.png" />
+                    </p>
+                    <br/> You can see choose Footer style in <strong>Customize theme</strong> control panel.
+                    <br/>
+                    <p>
+                        <img src="assets/images/choose_hf2.jpg" />
+                    </p>
+                    <div>
+                        <strong>HTML Code Social (Footer Style 1):</strong>
+                    </div>
+                    <div>
+                        &nbsp;
+                    </div>
+                    <textarea style="width:100%; height:200px; text-align: left;">
+                        <div class="connect col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <div class="title_conn">Stay Connect!</div>
+                            <div class="img_conn">
+
+                                <a href="#"><img alt="" src="//cdn.shopify.com/s/files/1/1564/5749/t/2/assets/footer_social_1.png?7389722473068460244"></a>
+
+                                <a href="#"><img alt="" src="//cdn.shopify.com/s/files/1/1564/5749/t/2/assets/footer_social_2.png?7389722473068460244"></a>
+
+                                <a href="#"><img alt="" src="//cdn.shopify.com/s/files/1/1564/5749/t/2/assets/footer_social_3.png?7389722473068460244"></a>
+
+                                <a href="#"><img alt="" src="//cdn.shopify.com/s/files/1/1564/5749/t/2/assets/footer_social_4.png?7389722473068460244"></a>
+
+                                <a href="#"><img alt="" src="//cdn.shopify.com/s/files/1/1564/5749/t/2/assets/footer_social_5.png?7389722473068460244"></a>
+
+                            </div>
+                        </div>
+                    </textarea>
+
+                    <div>
+                        <strong>HTML Code Social (Footer Style 3):</strong>
+                    </div>
+                    <div>
+                        &nbsp;
+                    </div>
+                    <textarea style="width:100%; height:300px; text-align: left;">
+                        <ul class="connect_about_us">
+                            <li> 
+                              <a href="#"><img alt="" src="//cdn.shopify.com/s/files/1/1564/5749/t/4/assets/footer_social_1.png?7389722473068460244"></a>
+                            </li>
+
+                            <li> 
+                              <a href="#"><img alt="" src="//cdn.shopify.com/s/files/1/1564/5749/t/4/assets/footer_social_2.png?7389722473068460244"></a>
+                            </li>
+
+                            <li> 
+                              <a href="#"><img alt="" src="//cdn.shopify.com/s/files/1/1564/5749/t/4/assets/footer_social_3.png?7389722473068460244"></a>
+                            </li>
+
+                            <li> 
+                              <a href="#"><img alt="" src="//cdn.shopify.com/s/files/1/1564/5749/t/4/assets/footer_social_4.png?7389722473068460244"></a>
+                            </li>
+
+                            <li> 
+                              <a href="#"><img alt="" src="//cdn.shopify.com/s/files/1/1564/5749/t/4/assets/footer_social_5.png?7389722473068460244"></a>
+                            </li>
+                        </ul>
+                    </textarea>
+                    
+                </p>
+            </div>
+        </section>
+        <section id="sections_in_home_page">
+            <div class="page-header">
+                <h3>Sections in Home page</h3>
+                <hr class="notop">
+            </div>
+            <p style="text-transform: uppercase; font-weight: bold;">
+                In Happychild theme, we support <strong style="background: #ff6600; color: #fff; padding: 2px 5px;">20 Sections</strong> for builder home page and other landing page.
+                <br/> You can see sections in customize control panel.
+                <br/>
+            </p>
+            <p>
+                <strong>Section V1</strong>
+                <ul class="section-home">
+                    <li><i>s1.1</i><a href="#section-slider-v1">Section Slider V1</a>
+                    </li>
+                    <li><i>s1.2</i><a href="#section-banner-v1">Section Banner V1</a>
+                    </li>
+                    <li><i>s1.3</i><a href="#section-product-tab-v1">Section Products Tab V1</a>
+                    </li>
+                    <li><i>s1.4</i><a href="#section-countdow-v1">Section Countdow V1</a>
+                    </li>
+                    <li><i>s1.5</i><a href="#section-testimonial-v1">Section Testimonial V1</a>
+                    </li>
+                    <li><i>s1.6</i><a href="#section-banner-3col">Section Banner 3col</a>
+                    </li>
+                    <li><i>s1.7</i><a href="#section-brands-v1">Section Brands-v1</a>
+                    </li>
+                    <li><i>s1.8</i><a href="#section-blog-v1">Section Blog V1</a>
+                    </li>
+                </ul>
+                <br>
+                <strong>Section V2</strong>
+                <ul class="section-home">   
+                    <li><i>s2.1</i><a href="#section-slider-v2">Section Slider V2</a>
+                    </li>
+                    <li><i>s2.2</i><a href="#section-banner-3col">Section Banner 3col</a>
+                    </li>
+                    <li><i>s2.3</i><a href="#section-tab-left-banner">Section Tab Left Banner</a>
+                    </li>
+                    <li><i>s2.4</i><a href="#section-countdow-v1">Section Countdow V1</a>
+                    </li>
+                    <li><i>s2.5</i><a href="#section-tab-right-banner">Section Tab Right Banner</a>
+                    </li>
+                    <li><i>s2.6</i><a href="#section-testimonial-v1">Section Testimonial V1</a>
+                    </li>
+                    <li><i>s2.7</i><a href="#section-list-product">Section List Product</a>
+                    </li>
+                    <li><i>s2.8</i><a href="#section-blog-v2">Section Blog V2</a>
+                    </li>
+                    <li><i>s2.9</i><a href="#section-newlester-v2">Section Newlester V2</a>
+                    </li>
+                    <li><i>s2.10</i><a href="#section-brands-v1">Section Brands-v1</a>
+                    </li>
+                </ul>
+                <br>
+                <strong>Section V3</strong>
+                <ul class="section-home">  
+                    <li><i>s3.1</i><a href="#section-slider-v3">Section Slider V3</a>
+                    </li>    
+                    <li><i>s3.2</i><a href="#section-product-v3">Section Product V3</a>
+                    </li>
+                    <li><i>s3.3</i><a href="#section-newlester-v3">Section Newlester V3</a>
+                    </li>
+                    <li><i>s3.4</i><a href="#section-tab-product-v3">Section Tab Product V3</a>
+                    </li>
+                    <li><i>s3.5</i><a href="#section-policy-v3">Section Policy V3</a>
+                    </li>
+                    <li><i>s3.6</i><a href="#section-testimonial-and-blog-v3">Section Testimonial And Blog V3</a>
+                    </li>
+                    <li><i>s3.7</i><a href="#section-brands-v1">Section Brands-v1</a>
+                    </li>
+                    <li><i>s3.8</i><a href="#section-banner-3col">Section Banner 3col</a>
+                    </li>
+                </ul>
+            </p>
+            <h4 id="section-slider-v1" class="section-heading">+ Section Slider V1</h4>
+            <p>
+                In this section we added 5 sliders & each slider there 2 img icon, 6 text content for work and you need config values bellow for each slider:
+            </p>
+            <p>
+                <ul class="section-home">
+                    <li style="list-style: none;"><b>SLIDER</b></li>
+                    <li><b>Full Screen Section:</b> Full Screen Section?</li>
+                    <li><b>Space Top-Bottom Section 1:</b> space-top-10, space-10...</li>
+                    <li style="list-style: none;"><b>SLIDER x (settings of slider x)</b></li>
+                    <li><b>Enable Slider:</b> Enable Slider x?</li>
+                    <li><b>Background color:</b> Selection background color?</li>
+                    <li><b>Background Image:</b> Background Image Slider x</li>
+                    <li><b>Image Slider:</b> Image background for Slider x</li>
+                    <li><b>Title:</b> Name Title Slider x</li>
+                    <li><b>Sub Title:</b> Name Sub Title Slider x</li>
+                    <li><b>Image Slider:</b> Image background for Slider x</li>
+                    <li><b>Sub Title 2:</b> Name Sub Title 2 Slider x</li>
+                    <li><b>Image Slider:</b> Image background for Slider x</li>
+                    <li><b>Content:</b> Content Slider x</li>
+                </ul>
+            </p>
+            <p>After configuration, this section will be showing like this:</p>
+            <p>
+                <img src="assets/images/section_slider.jpg" />
+            </p>
+            <h4 id="section-slider-v2" class="section-heading">+ Section Slider V2</h4>
+            <p>
+                In this section we added 5 sliders & each slider there 2 img icon, 6 text content for work and you need config values bellow for each slider:
+            </p>
+            <p>
+                <ul class="section-home">
+                    <li style="list-style: none;"><b>SLIDER</b></li>
+                    <li><b>Full Screen Section:</b> Full Screen Section?</li>
+                    <li><b>Space Top-Bottom Section 1:</b> space-top-10, space-10...</li>
+                    <li style="list-style: none;"><b>SLIDER x (settings of slider x)</b></li>
+                    <li><b>Enable Slider:</b> Enable Slider x?</li>
+                    <li><b>Background color:</b> Selection background color?</li>
+                    <li><b>Background Image:</b> Background Image Slider x</li>
+                    <li><b>Image Slider:</b> Image background for Slider x</li>
+                    <li><b>Image Slider:</b> Image background for Slider x</li>
+                    <li><b>Sub Title:</b> Name Sub Title Slider x</li>
+                    <li><b>Image Slider:</b> Image background for Slider x</li>
+                    <li><b>Image Slider:</b> Image background for Slider x</li>
+                </ul>
+            </p>
+            <p>After configuration, this section will be showing like this:</p>
+            <p>
+                <img src="assets/images/section_slider_v2.jpg" />
+            </p>
+            <h4 id="section-slider-v3" class="section-heading">+ Section Slider V3</h4>
+            <p>
+                In this section we added 5 sliders & each slider there 2 img icon, 6 text content for work and you need config values bellow for each slider:
+            </p>
+            <p>
+                <ul class="section-home">
+                    <li style="list-style: none;"><b>SLIDER</b></li>
+                    <li><b>Full Screen Section:</b> Full Screen Section?</li>
+                    <li><b>Space Top-Bottom Section 1:</b> space-top-10, space-10...</li>
+                    <li style="list-style: none;"><b>SLIDER x (settings of slider x)</b></li>
+                    <li><b>Enable Slider:</b> Enable Slider x?</li>
+                    <li><b>Background color:</b> Selection background color?</li>
+                    <li><b>Background Image:</b> Background Image Slider x</li>
+                    <li><b>Image Slider:</b> Image background for Slider x</li>
+                </ul>
+            </p>
+            <p>After configuration, this section will be showing like this:</p>
+            <p>
+                <img src="assets/images/section_slider_v3.jpg" />
+            </p>
+            <h4 id="section-banner-v1" class="section-heading">+ Section Banner V1</h4>
+            <p>
+                You need config values bellow for each section:
+            </p>
+            <p>
+                <ul class="section-home">
+                    <li><b>Select Border Style:</b> Space Top-Bottom Section or Full Width Section</li>
+                    <li style="list-style: none;"><b>BANNER X</b>
+                    </li>
+                    <li><b>Image x:</b> Image for Banner x</li>
+                    <li><b> URL x:</b> URL for Banner x</li>
+                </ul>
+            </p>
+            <p>After configuration, this section will be showing like this:</p>
+            <p>
+                <img src="assets/images/banner_v1.jpg" />
+            </p>
+            <h4 id="section-product-tab-v1" class="section-heading">+ Section Tab Products V1</h4>
+            <p>
+                You need config values bellow for each section:
+            </p>
+            <p>
+                <ul class="section-home">
+                    <li style="list-style: none;"><b>Settings</b>
+                    </li>
+                    <li><b>Select Border Style:</b> Space Top-Bottom Section or Full Width Section</li>
+                    <li><b>Limit number of products:</b> Limit number of products for section.</li>
+                    <li><b>Title:</b> Title for section.</li>
+                    <li style="list-style: none;"><b>TAB X</b>
+                    <li><b>Title Tab:</b> Title for Tab x</li>
+                    <li><b>Select collection X:</b> Choose collection for Tab x.</li>
+                </ul>
+            </p>
+            <p>After configuration, this section will be showing like this:</p>
+            <p>
+                <img src="assets/images/tab-product-v1.jpg" />
+            </p>
+            <h4 id="section-countdow-v1" class="section-heading">+ Section Countdow</h4>
+            <p>
+                You need config values bellow for each section:
+            </p>
+            <p>
+                <ul class="section-home">
+                    <li style="list-style: none;"><b>Settings</b>
+                    </li>
+                    <li><b>Select Border Style:</b> Space Top-Bottom Section or Full Width Section</li>
+                    <li><b>Image 1:</b> Image for Section</li>
+                    <li><b>Image 2:</b> Image for Section</li>
+                    <li><b>Title:</b> Title for section.</li>
+                    <li><b>Sub Title:</b>Sub Title for section.</li>
+                    <li><b>Text:</b> Text</li>
+                    <li><b>And Datatime:</b> Datatime for section.</li>
+                </ul>
+            </p>
+            <p>After configuration, this section will be showing like this:</p>
+            <p>
+                <img src="assets/images/section-countdow.jpg" />
+            </p>
+            <h4 id="section-testimonial-v1" class="section-heading">+ Section Testimonial V1</h4>
+            <p>
+                You need config values bellow for each section:
+            </p>
+            <p>
+                <ul class="section-home">
+                    <li style="list-style: none;"><b>Settings</b>
+                    </li>
+                    <li><b>Select Border Style:</b> Space Top-Bottom Section or Full Width Section</li>
+                     <li><b>Background image:</b> Upload background image for section.</li>
+                    <li><b>Avatar:</b> Avatar x for section.</li>
+                    <li><b>Description:</b> Description x for section.</li>
+                    <li><b>Name:</b> Name x for section.</li>
+                    <li><b>Info:</b> Info x for section.</li>
+                </ul>
+            </p>
+            <p>After configuration, this section will be showing like this:</p>
+            <p>
+                <img src="assets/images/section_testimonial.jpg" />
+            </p>
+            <h4 id="section-banner-3col" class="section-heading">+ Section Banner 3Col</h4>
+            <p>
+                You need config values bellow for each section:
+            </p>
+            <p>
+                <ul class="section-home">
+                    <li><b>Select Border Style:</b> Space Top-Bottom Section or Full Width Section</li>
+                    <li style="list-style: none;"><b>BANNER X</b>
+                    </li>
+                    <li><b>Image x:</b> Image for Banner x</li>
+                    <li><b> URL x:</b> URL for Banner x</li>
+                </ul>
+            </p>
+            <p>After configuration, this section will be showing like this:</p>
+            <p>
+                <img src="assets/images/banner_3col.jpg" />
+            </p>
+            <h4 id="section-brands-v1" class="section-heading">+ Section Brands</h4>
+            <p>
+                You need config values bellow for each section:
+            </p>
+            <p>
+                <ul class="section-home">
+                    <li style="list-style: none;"><b>SETTINGS</b>
+                    </li>
+                    <li><b>Select Border Style:</b> Space Top-Bottom Section or Full Width Section</li>
+                    <li style="list-style: none;"><b>BRAND</b>
+                    </li>
+                    <li><b>Image:</b> Image x for section.</li>
+                    <li><b>Url:</b> Url x for section.</li>
+                </ul>
+            </p>
+            <p>After configuration, this section will be showing like this:</p>
+            <p>
+                <img src="assets/images/section_brands.jpg" />
+            </p>
+            <h4 id="section-blog-v1" class="section-heading">+ Section Blog V1</h4>
+            <p>
+                You need config values bellow for each section:
+            </p>
+            <p>
+                <ul class="section-home">
+                     <li style="list-style: none;"><b>SETTINGS</b>
+                    </li>
+                    <li><b>Select Border Style:</b> Space Top-Bottom Section 1 or Full Width Section</li>
+                    <li><b>Title:</b> Name Text Title For Section</li>
+                    <li><b>Limit number of Blog:</b> Limit number of Blog for section.</li>
+                </ul>
+            </p>
+            <p>After configuration, this section will be showing like this:</p>
+            <p>
+                <img src="assets/images/section_blog_v1.jpg" />
+            </p>
+            <h4 id="section-tab-left-banner" class="section-heading">+ Section Tab Left Banner</h4>
+            <p>
+                You need config values bellow for each section:
+            </p>
+            <p>
+                <ul class="section-home">
+                    <li style="list-style: none;"><b>Settings</b>
+                    </li>
+                    <li><b>Select Border Style:</b> Space Top-Bottom Section or Full Width Section</li>
+                    <li><b>Image:</b> Image for section.</li>
+                    <li><b>Limit number of products:</b> Limit number of products for section.</li>
+                    <li style="list-style: none;"><b>TAB X</b>
+                    <li><b>Title Tab:</b> Title for Tab x</li>
+                    <li><b>Select collection X:</b> Choose collection for Tab x.</li>
+                </ul>
+            </p>
+            <p>After configuration, this section will be showing like this:</p>
+            <p>
+                <img src="assets/images/tab-product-left-banner.jpg" />
+            </p>
+            <h4 id="section-tab-right-banner" class="section-heading">+ Section Tab Right Banner</h4>
+            <p>
+                You need config values bellow for each section:
+            </p>
+            <p>
+                <ul class="section-home">
+                    <li style="list-style: none;"><b>Settings</b>
+                    </li>
+                    <li><b>Select Border Style:</b> Space Top-Bottom Section or Full Width Section</li>
+                    <li><b>Image:</b> Image for section.</li>
+                    <li><b>Limit number of products:</b> Limit number of products for section.</li>
+                    <li style="list-style: none;"><b>TAB X</b>
+                    <li><b>Title Tab:</b> Title for Tab x</li>
+                    <li><b>Select collection X:</b> Choose collection for Tab x.</li>
+                </ul>
+            </p>
+            <p>After configuration, this section will be showing like this:</p>
+            <p>
+                <img src="assets/images/tab-product-right-banner.jpg" />
+            </p>
+             <h4 id="section-list-product" class="section-heading">+ Section List Product</h4>
+            <p>
+                You need config values bellow for each section:
+            </p>
+            <p>
+                <ul class="section-home">
+                    <li style="list-style: none;"><b>Settings</b>
+                    </li>
+                    <li><b>Select Border Style:</b> Space Top-Bottom Section or Full Width Section</li>
+                    <li><b>Limit number of products:</b> Limit number of products for section.</li>
+                    <li style="list-style: none;"><b>TAB X</b>
+                    <li><b>Title Tab:</b> Title for Tab x</li>
+                    <li><b>Select collection X:</b> Choose collection for Tab x.</li>
+                </ul>
+            </p>
+            <p>After configuration, this section will be showing like this:</p>
+            <p>
+                <img src="assets/images/product-list.jpg" />
+            </p>
+            <h4 id="section-blog-v2" class="section-heading">+ Section Blog V2</h4>
+            <p>
+                You need config values bellow for each section:
+            </p>
+            <p>
+                <ul class="section-home">
+                     <li style="list-style: none;"><b>SETTINGS</b>
+                    </li>
+                    <li><b>Select Border Style:</b> Space Top-Bottom Section 1 or Full Width Section</li>
+                    <li><b>Title:</b> Name Text Title For Section</li>
+                    <li><b>Limit number of Blog:</b> Limit number of Blog for section.</li>
+                </ul>
+            </p>
+            <p>After configuration, this section will be showing like this:</p>
+            <p>
+                <img src="assets/images/section_blog_v2.jpg" />
+            </p>
+            <h4 id="section-newlester-v2" class="section-heading">+ Section Newlester V2</h4>
+            <p>
+                You need config values bellow for each section:
+            </p>
+            <p>
+                <ul class="section-home">
+                     <li style="list-style: none;"><b>SETTINGS</b>
+                    </li>
+                    <li><b>Select Border Style:</b> Space Top-Bottom Section 1 or Full Width Section</li>
+                    <li><b>Title:</b> Name Text Title For Section</li>
+                    <li><b>Content:</b> Content for section.</li>
+                    <li><b>Url:</b> Url for section.</li>
+                </ul>
+            </p>
+            <p>After configuration, this section will be showing like this:</p>
+            <p>
+                <img src="assets/images/section_newlester_v2.jpg" />
+            </p>
+            <h4 id="section-product-v3" class="section-heading">+ section-product-v3</h4>
+            <p>
+                You need config values bellow for each section:
+            </p>
+            <p>
+                <ul class="section-home">
+                    <li style="list-style: none;"><b>Settings</b>
+                    </li>
+                    <li><b>Select Border Style:</b> Space Top-Bottom Section or Full Width Section</li>
+                    <li><b>Title:</b> Title for section.</li>
+                    <li><b>Select collection:</b> Choose collection for section.</li>
+                    <li><b>Limit number of products:</b> Limit number of products for section.</li>
+                </ul>
+            </p>
+            <p>After configuration, this section will be showing like this:</p>
+            <p>
+                <img src="assets/images/section_product_v3.jpg" />
+            </p>
+             <h4 id="section-newlester-v3" class="section-heading">+ Section Newlester V3</h4>
+            <p>
+                You need config values bellow for each section:
+            </p>
+            <p>
+                <ul class="section-home">
+                     <li style="list-style: none;"><b>SETTINGS</b>
+                    </li>
+                    <li><b>Select Border Style:</b> Space Top-Bottom Section 1 or Full Width Section</li>
+                    <li><b>Title:</b> Name Text Title For Section</li>
+                    <li><b>Content:</b> Content for section.</li>
+                    <li><b>Url:</b> Url for section.</li>
+                </ul>
+            </p>
+            <p>After configuration, this section will be showing like this:</p>
+            <p>
+                <img src="assets/images/section_newlester_v3.jpg" />
+            </p>
+            <h4 id="section-tab-product-v3" class="section-heading">+ Section Tab Product V3</h4>
+            <p>
+                You need config values bellow for each section:
+            </p>
+            <p>
+                <ul class="section-home">
+                    <li style="list-style: none;"><b>Settings</b>
+                    </li>
+                    <li><b>Select Border Style:</b> Space Top-Bottom Section or Full Width Section</li>
+                    <li><b>Limit number of products:</b> Limit number of products for section.</li>
+                    <li style="list-style: none;"><b>Settings Product Sale</b>
+                    </li>
+                    <li><b>Title:</b> Name Text Title For Section</li>
+                    <li><b>Select collection X:</b> Choose collection for Section</li>
+                    <li><b>Limit products:</b> Limit products for section.</li>
+                    <li><b>And Datatime:</b> Datatime for section.</li>
+                    <li style="list-style: none;"><b>TAB X</b>
+                    <li><b>Title Tab:</b> Title for Tab x</li>
+                    <li><b>Select collection X:</b> Choose collection for Tab x.</li>
+                </ul>
+            </p>
+            <p>After configuration, this section will be showing like this:</p>
+            <p>
+                <img src="assets/images/section_product_tab_v3.jpg" />
+            </p>
+            <h4 id="section-policy-v3" class="section-heading">+ Section Policy V3</h4>
+            <p>
+                In this section we added 4 boxs (4 column) for work and you need config values bellow for each service box:
+            </p>
+            <p>
+                <ul class="section-home">
+                    <li style="list-style: none;"><b>Settings</b>
+                    </li>
+                    <li><b>Select Border Style:</b> Space Top-Bottom Section or Full Width Section</li>
+                    <li><b>Enable policy x:</b> Enable Policy x</li>
+                    <li><b>Title:</b> Title of column x</li>
+                    <li><b>Content:</b> Content of column x</li>
+                    <li><b>Icon:</b> Icon of column x.</li>
+                </ul>
+            </p>
+            <p>After configuration, this section will be showing like this:</p>
+            <p>
+                <img src="assets/images/section_policy.jpg" />
+            </p>
+            <h4 id="section-testimonial-and-blog-v3" class="section-heading">+ Section Testimonial And Blog V3</h4>
+            <p>
+                You need config values bellow for each section:
+            </p>
+            <p>
+                <ul class="section-home">
+                    <li style="list-style: none;"><b>Settings </b>
+                    </li>
+                    <li><b>Select Border Style:</b> Space Top-Bottom Section or Full Width Section</li>
+                    <li style="list-style: none;"><b>Settings Testimonial</b>
+                    </li>
+                    <li><b>Title Testimonial:</b> Title for section testimonial.</li>
+                    <li><b>Title Blog:</b> Title for section blog.</li>
+                    <li style="list-style: none;"><b>TESTIMONIAL X</b>
+                    <li><b>Avatar:</b> Avatar x for section.</li>
+                    <li><b>Description:</b> Description x for section.</li>
+                    <li><b>Name:</b> Name x for section.</li>
+                    <li><b>Info:</b> Info x for section.</li>
+                </ul>
+            </p>
+            <p>After configuration, this section will be showing like this:</p>
+            <p>
+                <img src="assets/images/testimonial_and_blog.jpg" />
+            </p>
+        </section>
+        <section id="home_page_1">
+            <div class="page-header">
+                <h3>Home page 1</h3>
+                <hr class="notop">
+            </div>
+            <p>
+                <b>In Home page 1, we used sections bellow:</b>
+            </p>
+            <p>
+                <ul class="section-home">
+                    <li><i class="red">1</i><a href="#header_footer">Header Style 1</a>
+                    </li>
+                    <li><i class="red">2</i><a href="#header_footer">Footer Style 1</a>
+                    </li>
+                </ul>
+                <ul class="section-home">
+                    <li><i>s1.1</i><a href="#section-slider-v1">Section Slider V1</a>
+                    </li>
+                    <li><i>s1.2</i><a href="#section-banner-v1">Section Banner V1</a>
+                    </li>
+                    <li><i>s1.3</i><a href="#section-product-tab-v1">Section Products Tab V1</a>
+                    </li>
+                    <li><i>s1.4</i><a href="#section-countdow-v1">Section Countdow V1</a>
+                    </li>
+                    <li><i>s1.5</i><a href="#section-testimonial-v1">Section Testimonial V1</a>
+                    </li>
+                    <li><i>s1.6</i><a href="#section-banner-3col">Section Banner 3col</a>
+                    </li>
+                    <li><i>s1.7</i><a href="#section-brands-v1">Section Brands-v1</a>
+                    </li>
+                    <li><i>s1.8</i><a href="#section-blog-v1">Section Blog V1</a>
+                    </li>
+                </ul>
+            </p>
+            <p> <img alt="" src="assets/images/fullpage.png">
+            </p>
+            <h4 id="header_footer"><br>
+                            <br>
+                            Header Style 1:
+                        </h4>
+            <h4 id="home_page_1_img_alt" "_src"http_landingengothemecom_shopify_Boutique_guides_img_24jpg "br_nbsp"><img alt="" src="assets/images/demo_header_1.png"><br>
+                          &nbsp;</h4>
+            <h4 id="header_footer"><br>
+                            <br>
+                            Footer Style 1:
+                        </h4>
+            <h4 id="home_page_1_img_alt" "_src"http_landingengothemecom_shopify_Boutique_guides_img_24jpg "br_nbsp"><img alt="" src="assets/images/demo_footer_1b.png"><br>
+                          &nbsp;</h4>
+            <p> &nbsp;</p>
+            <h4 id="home_page_1_config_position_for_each_section_in_home_1,_see_photo_bellow">Config position for each section in home 1, see photo bellow:</h4>
+            <p> <img alt="" src="assets/images/image_8.jpg">
+            </p>
+            <p> Choose and Add section in Homepage</strong>
+            </p>
+            <p> <img alt="" src="assets/images/choose_add_section.jpg">
+            </p>
+            <p> Choose a section in Homepage <strong>(drag and drop then add section)</strong>
+            </p>
+            <p> <img alt="" src="assets/images/image_7.jpg">
+            </p>
+            <p> &nbsp;</p>
+        </section>
+        <section id="home_page_2">
+            <div class="page-header">
+                <h3>Home page 2</h3>
+                <hr class="notop">
+            </div>
+            <p>
+                <b>In Home page 2, we used sections bellow:</b>
+            </p>
+            <p>
+                <ul class="section-home">
+                    <li><i class="red">1</i><a href="#header_footer">Header Style 2</a>
+                    </li>
+                    <li><i class="red">2</i><a href="#header_footer">Footer Style 2</a>
+                    </li>
+                </ul>
+                <ul class="section-home">
+                    <li><i>s2.1</i><a href="#section-slider-v2">Section Slider V2</a>
+                    </li>
+                    <li><i>s2.2</i><a href="#section-banner-3col">Section Banner 3col</a>
+                    </li>
+                    <li><i>s2.3</i><a href="#section-tab-left-banner">Section Tab Left Banner</a>
+                    </li>
+                    <li><i>s2.4</i><a href="#section-countdow-v1">Section Countdow V1</a>
+                    </li>
+                    <li><i>s2.5</i><a href="#section-tab-right-banner">Section Tab Right Banner</a>
+                    </li>
+                    <li><i>s2.6</i><a href="#section-testimonial-v1">Section Testimonial V1</a>
+                    </li>
+                    <li><i>s2.7</i><a href="#section-list-product">Section List Product</a>
+                    </li>
+                    <li><i>s2.8</i><a href="#section-blog-v2">Section Blog V2</a>
+                    </li>
+                    <li><i>s2.9</i><a href="#section-newlester-v2">Section Newlester V2</a>
+                    </li>
+                    <li><i>s2.10</i><a href="#section-brands-v1">Section Brands-v1</a>
+                    </li>
+                </ul>
+            </p>
+            <p> <img alt="" src="assets/images/home2.png">
+            </p>
+            <h4 id="header_footer"><br>
+                            <br>
+                            Header Style 2:
+                        </h4>
+            <h4 id="home_page_1_img_alt" "_src"http_landingengothemecom_shopify_Boutique_guides_img_24jpg "br_nbsp"><img alt="" src="assets/images/header_v2.jpg"><br>
+                          &nbsp;</h4>
+            <h4 id="header_footer"><br>
+                            <br>
+                            Footer Style 2:
+                        </h4>
+            <h4 id="home_page_1_img_alt" "_src"http_landingengothemecom_shopify_Boutique_guides_img_24jpg "br_nbsp"><img alt="" src="assets/images/footer_v2.jpg"><br>
+                          &nbsp;</h4>
+            <p> &nbsp;</p>
+            <h4 id="home_page_1_config_position_for_each_section_in_home_1,_see_photo_bellow">Config position for each section in home 2, see photo bellow:</h4>
+            <p> <img alt="" src="assets/images/image_add_home2.jpg">
+            </p>
+            <p> Choose and Add section in Homepage</strong>
+            </p>
+            <p> <img alt="" src="assets/images/choose_add_section_v2.jpg">
+            </p>
+            <p> Choose a section in Homepage <strong>(drag and drop then add section)</strong>
+            </p>
+            <p> <img alt="" src="assets/images/section_homepage_v2.jpg">
+            </p>
+            <p> &nbsp;</p>
+        </section>
+         <section id="home_page_3">
+            <div class="page-header">
+                <h3>Home page 3</h3>
+                <hr class="notop">
+            </div>
+            <p>
+                <b>In Home page 2, we used sections bellow:</b>
+            </p>
+            <p>
+                <ul class="section-home">
+                    <li><i class="red">1</i><a href="#header_footer">Header Style 3</a>
+                    </li>
+                    <li><i class="red">2</i><a href="#header_footer">Footer Style 3</a>
+                    </li>
+                </ul>
+                <ul class="section-home">
+                    <li><i>s3.1</i><a href="#section-slider-v3">Section Slider V3</a>
+                    </li>    
+                    <li><i>s3.2</i><a href="#section-product-v3">Section Product V3</a>
+                    </li>
+                    <li><i>s3.3</i><a href="#section-newlester-v3">Section Newlester V3</a>
+                    </li>
+                    <li><i>s3.4</i><a href="#section-tab-product-v3">Section Tab Product V3</a>
+                    </li>
+                    <li><i>s3.5</i><a href="#section-policy-v3">Section Policy V3</a>
+                    </li>
+                    <li><i>s3.6</i><a href="#section-testimonial-and-blog-v3">Section Testimonial And Blog V3</a>
+                    </li>
+                    <li><i>s3.7</i><a href="#section-brands-v1">Section Brands-v1</a>
+                    </li>
+                    <li><i>s3.8</i><a href="#section-banner-3col">Section Banner 3col</a>
+                    </li>
+                </ul>
+            </p>
+            <p> <img alt="" src="assets/images/home3.png">
+            </p>
+            <h4 id="header_footer"><br>
+                            <br>
+                            Header Style 2:
+                        </h4>
+            <h4 id="home_page_1_img_alt" "_src"http_landingengothemecom_shopify_Boutique_guides_img_24jpg "br_nbsp"><img alt="" src="assets/images/header_v3.jpg"><br>
+                          &nbsp;</h4>
+            <h4 id="header_footer"><br>
+                            <br>
+                            Footer Style 2:
+                        </h4>
+            <h4 id="home_page_1_img_alt" "_src"http_landingengothemecom_shopify_Boutique_guides_img_24jpg "br_nbsp"><img alt="" src="assets/images/footer_v3.jpg"><br>
+                          &nbsp;</h4>
+            <p> &nbsp;</p>
+            <h4 id="home_page_1_config_position_for_each_section_in_home_1,_see_photo_bellow">Config position for each section in home 2, see photo bellow:</h4>
+            <p> <img alt="" src="assets/images/image_add_home3.jpg">
+            </p>
+            <p> Choose and Add section in Homepage</strong>
+            </p>
+            <p> <img alt="" src="assets/images/section_add_home3.jpg">
+            </p>
+            <p> Choose a section in Homepage <strong>(drag and drop then add section)</strong>
+            </p>
+            <p> <img alt="" src="assets/images/section_homepage_v3.jpg">
+            </p>
+            <p> &nbsp;</p>
+        </section>
+        <section id="shop_page">
+            <div class="page-header">
+                <h3>Shop page</h3>
+                <hr class="notop">
+            </div>
+            <h4 id="shop_page_collection_page">Collection page</h4>
+            <ul>
+                <li>
+                    <strong>Add new collection or edit collection</strong>
+                    <br>
+                    <br>
+                    <img alt="" src="assets/images/image_37.jpg">
+                    <br> &nbsp;
+                </li>
+                <li>
+                    <strong>Add products for collection<br>
+                                  <br>
+                                  <img alt="" src="assets/images/image_38.jpg"></strong>
+                    <br>
+                    <br> &nbsp;
+                </li>
+                
+                <li>
+                    <strong>Set view mode for collection</strong>
+                    <br>
+                    <br> in this theme, our support 3 view mode for collection, you can sellect an option for each collection as photo bellow
+                    <br>
+                    <br>
+                    <img alt="" src="assets/images/image_39.jpg">
+                </li>
+                <li>
+                    <strong>Settings for collection<br>
+                                  <br>
+                                  <img alt="" src="assets/images/settings_collection.jpg"></strong>
+                    <br>
+                    <br> &nbsp;
+                </li>
+            </ul>
+            <p>
+                <br> &nbsp;
+            </p>
+            <h4 id="shop_page_product_page">Product Detail page</h4>
+            <p>
+                <strong>Images for Product: 570 x 781px .jpg recommended</strong>
+            </p>
+            <p>Config Product detail page: 1 steps</p>
+            <li style="list-style: square;margin-left: 36px;">
+                Settings Detail Page
+            </li>
+            <p>
+                <img alt="" src="assets/images/settings_detail_1.jpg">
+            </p>
+            
+            <p>
+                <img alt="" src="assets/images/settings_detail_3.jpg">
+            </p>
+            
+            <h4 id="shop_page_sidebar">Sidebar</h4>
+            <p>setting widgets in sidebar collection page</p>
+            <p>
+                <img alt="" src="assets/images/collection_sidebar.jpg">
+            </p>
+            <p>
+                Settings Categories sidebar
+            </p>
+            <p>
+                <img alt="" src="assets/images/settings_categories.jpg">
+            </p>
+            <p>
+                Settings Widget Product sidebar
+            </p>
+            <p>
+                <img alt="" src="assets/images/witer_product.jpg">
+            </p>
+           
+            <h4 id="shop_page_sidebar">Sidebar Filters</h4>
+            <p>Settings Sidebar Filters</p>
+            <p>
+                <img alt="" src="assets/images/sidebar_filters.jpg">
+            </p>
+            <p>
+                Settings Filter Color Sidebar
+            </p>
+            <p>
+                <img alt="" src="assets/images/color.jpg">
+            </p>
+            <p>
+               Settings Filter Price Sidebar
+            </p>
+            <p>
+                <img alt="" src="assets/images/price.jpg">
+            </p>
+            <p>
+                Settings Filter Size sidebar
+            </p>
+            <p>
+                <img alt="" src="assets/images/size.jpg">
+            </p>
+            <p>
+                Filter Size sidebar
+            </p>
+            <p>
+                <img alt="" src="assets/images/size.jpg">
+            </p>
+            <p>
+                <strong>Filter by Price, Size, Color</strong>
+            </p>
+            
+            <p>
+                To add a filter attributes for a product, you need add the tag filter for that product. See the image below:
+            </p>
+            <p>
+                <img alt="" src="assets/images/finter.jpg">
+            </p>
+        </section>
+        <section id="get_support">
+            <div class="page-header">
+                <h3>Get support</h3>
+                <hr class="notop">
+            </div>
+            <p>
+                If you are unable to find your answer here in our documentation, please go to our forum and post up a new topic with all the details we need. Please be sure to include your site URL as well or send us an email.
+            </p>
+            <h5>
+                            Our support scope
+                        </h5>
+            <p>
+                Our support covers configuration, building site as demo, trouble using any features, and bug fixes. We don&#39;t provide support for customizations or 3rd party extension.
+            </p>
+            <h5>
+                            Our support time
+                        </h5>
+            <p>
+                We try our best to monitor the email around the clock, however, this is not always possible due to different time zones. We will try to reply you as fast as we can.
+            </p>
+            <p>
+                Our working time is 8.00 AM - 5.30 PM, Monday to Friday (GMT+7). So if ask for help in the weekend, you may have to wait a little bit for support and please be patient.
+            </p>
+        </section>
+    </div>
+</body>
+
+</html>

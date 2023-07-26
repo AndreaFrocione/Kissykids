@@ -1,0 +1,17 @@
+------------  VERSION 1.0.1 ------------
+- Fix bug share social 
+- Fix bug action menu mobile
+- Fix bug banner heading
+- Fix bug image variants
+- Fix responsive content in slider on mobile
+- Fix bug change quantity currency
+
+Files to change:
+templates/product.liquid
+snippets/menu-mobile.liquid
+snippets/style.scss.liquid
+config/settings_schema.json
+
+
+------------  VERSION 1.0.0  ------------
+! Initial Release
